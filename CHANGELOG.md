@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.7.0](https://github.com/sudoblockio/icon-tracker-frontend/compare/v0.6.7...v0.7.0) (2025-05-22)
+
+
+### Features
+
+* added clear button to voting page [#551](https://github.com/sudoblockio/icon-tracker-frontend/issues/551) ([9dc4f0b](https://github.com/sudoblockio/icon-tracker-frontend/commit/9dc4f0b2e91e83b9d492a2fab44adbc225cb0513))
+* added total available voted amt in voting page [#552](https://github.com/sudoblockio/icon-tracker-frontend/issues/552) ([5b42cc1](https://github.com/sudoblockio/icon-tracker-frontend/commit/5b42cc1ec060bbbe3183977f6b86c25bf85f863f))
+
+
+### Bug Fixes
+
+* added apr column in voting page [#560](https://github.com/sudoblockio/icon-tracker-frontend/issues/560) ([1601179](https://github.com/sudoblockio/icon-tracker-frontend/commit/1601179035e2bb1f13210ecb99d7adfe7f833c81))
+* monthly inflation box overflow in Governance page [#565](https://github.com/sudoblockio/icon-tracker-frontend/issues/565) ([769c1da](https://github.com/sudoblockio/icon-tracker-frontend/commit/769c1dab18022896e1def73b0d2155aa6ddb80ef))
+
 ## [0.6.7](https://github.com/sudoblockio/icon-tracker-frontend/compare/v0.6.6...v0.6.7) (2025-02-21)
 
 

@@ -1,6 +1,6 @@
 {
     "name": "icon-tracker",
-    "version": "0.6.7",
+    "version": "0.7.0",
     "private": true,
     "dependencies": {
         "@ledgerhq/hw-transport-webhid": "^6.27.17",
