@@ -57,3 +57,5 @@ e2e/logs/*
 
 # Sentry Config File
 .env.sentry-build-plugin
+
+docs

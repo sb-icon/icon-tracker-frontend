@@ -393,7 +393,7 @@ class GovernancePage extends Component {
                                 <li>
                                     <div>
                                         <p>Monthly Inflation <em>(ICX)</em></p>
-                                        <p><span>{numberWithCommas(Number(this.state.Iglobal))}</span></p>
+                                        <p><span>{numberWithCommas(Number(this.state.Iglobal).toFixed(2))}</span></p>
                                     </div>
                                 </li>
                                 <li>
