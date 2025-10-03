@@ -16,7 +16,7 @@ jobs:
         id: release-please
         with:
           release-type: expo  # https://github.com/googleapis/release-please#strategy-language-types-supported
-  # TODO: https://github.com/sudoblockio/icon-tracker-frontend/issues/104
+  # TODO: https://github.com/sb-icon/icon-tracker-frontend/issues/104
   #          extra-files: |
   #            src/global/global.go
   # TODO: Should be package.json -> test
@@ -79,7 +79,7 @@ jobs:
       - name: Checkout charts repo
         uses: actions/checkout@v2
         with:
-          repository: sudoblockio/icon-charts
+          repository: sb-icon/icon-charts
           ref: main
           path: charts
           token: ${{ secrets.ICON_CHARTS_PAT }}
@@ -93,7 +93,7 @@ jobs:
         uses: fjogeleit/yaml-update-action@master
         with:
           workDir: charts
-          repository: sudoblockio/icon-charts
+          repository: sb-icon/icon-charts
           valueFile: 'deployments/${{ matrix.cluster }}/${{ matrix.network_name }}-${{ matrix.network_version }}/tracker-frontend/tags.yaml'
           propertyPath: 'deployment.image.tag'
           value: ${{needs.docker.outputs.tag}}

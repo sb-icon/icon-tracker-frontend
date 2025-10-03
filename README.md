@@ -1,11 +1,11 @@
 # ICON Tracker
 
 [![loopchain](https://img.shields.io/badge/ICON-API-blue?logoColor=white&logo=icon&labelColor=31B8BB)](https://shields.io) 
-[![GitHub Release](https://img.shields.io/github/release/sudoblockio/icon-tracker-frontend.svg?style=flat)]() 
+[![GitHub Release](https://img.shields.io/github/release/sb-icon/icon-tracker-frontend.svg?style=flat)]() 
 ![](https://github.com/sudoblock/icon-tracker-frontend/workflows/push-main/badge.svg?branch=main) 
-![](https://img.shields.io/github/license/sudoblockio/icon-tracker-frontend)
+![](https://img.shields.io/github/license/sb-icon/icon-tracker-frontend)
 
-[//]: # ([![codecov]&#40;https://codecov.io/gh/sudoblockio/icon-tracker-frontend/branch/main/graph/badge.svg&#41;]&#40;https://codecov.io/gh/sudoblockio/icon-tracker-frontend&#41;)
+[//]: # ([![codecov]&#40;https://codecov.io/gh/sb-icon/icon-tracker-frontend/branch/main/graph/badge.svg&#41;]&#40;https://codecov.io/gh/sb-icon/icon-tracker-frontend&#41;)
 [//]: # (![Uptime]&#40;https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgeometry-labs%2Ficon-status-page%2Fmaster%2Fapi%2Fdev-tracker-frontend-service%2Fuptime.json&#41; )
 
 ### Development Setup
@@ -55,7 +55,7 @@ docker-compose up -d
 
 #### Custom Backend 
 
-Please reference [gochain-local-community](https://github.com/sudoblockio/gochain-local-community) for instructions on how to deploy / a custom backend along with this frontend. Comes up practically one click. 
+Please reference [gochain-local-community](https://github.com/sb-icon/gochain-local-community) for instructions on how to deploy / a custom backend along with this frontend. Comes up practically one click. 
 
 ### Build:
 
